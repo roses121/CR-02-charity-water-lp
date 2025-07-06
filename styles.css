@@ -100,17 +100,7 @@ body {
   cursor: pointer;
 }
 
-.donation-form button:hover {
-  background-color: #004080;
-}
-  background-color: #00274d;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  font-size: 1rem;
-  cursor: pointer;
-}
-
+/* Change button color when hovered */
 .donation-form button:hover {
   background-color: #004080;
 }
