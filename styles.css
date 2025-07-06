@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Avenir', sans-serif; /* Use Proxima Nova for all text */
 }
 
 body {
@@ -18,12 +18,12 @@ body {
   padding: 20px 40px;
   background-color: white;
   color: #333;
-  border-bottom: 4px solid #fdd835; /* yellow line under header */
+  border-bottom: 4px solid #ffc907; /* yellow line under header */
 }
 
 .logo {
   font-size: 1.5rem;
-  font-weight: bold;
+  /* Removed font-weight: bold; to make logo text normal weight */
 }
 
 .logo span {
@@ -38,35 +38,24 @@ body {
 }
 
 .btn-yellow {
-  background-color: #fdd835;
+  background-color: #ffc907;
   padding: 10px 16px;
   border-radius: 4px;
   color: #000;
-  font-weight: bold;
+  /* Removed font-weight: bold; to make button text normal weight */
 }
 
 /* Hero Section */
 .hero {
   /* Set the background image using url() */
-  background-image: url('4832_Ethiopia_2019_CG-.jpg');
+  background-image: url(img/4832_Ethiopia_2019_CG-.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: center 10%; /* Center horizontally, slightly towards the top vertically */
   padding: 100px 40px;
   display: flex;
   align-items: center;
   min-height: 90vh;
   position: relative;
-}
-
-.hero::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 70, 100, 0.5); /* blue overlay */
-  z-index: 1;
 }
 
 .hero-content {
@@ -98,11 +87,22 @@ body {
   border: none;
   border-radius: 6px;
   font-size: 1rem;
-  color: #333;
+  color: #cccbc1;
 }
 
 .donation-form button {
   padding: 12px 20px;
+  background-color: #003366;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.donation-form button:hover {
+  background-color: #004080;
+}
   background-color: #00274d;
   color: white;
   border: none;
