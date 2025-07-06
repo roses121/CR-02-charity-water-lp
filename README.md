@@ -6,7 +6,7 @@ In this Project, you’ll transform your Canva mockup into a fully functional la
 With help from AI to jumpstart your layout, you'll focus on structuring your content, applying your brand style, and creating a polished final product that reflects your vision. By the end of this Project, you’ll have a live, interactive page deployed to the web. You can share this work when you want to showcase your technical skills and your passion for digital storytelling. 
 
 ## charity: water Brand Colors & Fonts
-
+ 
 ### Primary Colors:
 - Yellow:     `#FFC907`
 - Blue:       `#2E9DF7`
